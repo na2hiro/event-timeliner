@@ -21,6 +21,7 @@
   "devDependencies": {
     "@types/react": "^16.9.14",
     "@types/react-dom": "^16.9.4",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
     "typescript": "^3.7.2"
   }
 }
