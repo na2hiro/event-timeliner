@@ -10,7 +10,7 @@ const Main: FunctionComponent = () => {
     const events = text.split("\n").map(parseEvent).filter(event => event);
     console.log(events);
     return <div style={{ height: "100%", display: "flex", flexDirection: "column" }}>
-        <h1>Timezone visualizer</h1>
+        <h1 style={{margin: 0}}>Event Timeliner</h1>
         <Timeline events={events} />
         <textarea value={text} onChange={(e) => setText(e.target.value)}
             placeholder="Exception @ 8pm&#13;&#10;People complain @ 9pm" style={{
