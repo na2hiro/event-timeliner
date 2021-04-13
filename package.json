@@ -15,7 +15,7 @@
     "parcel-bundler": "^1.12.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "vis-timeline": "^6.2.7"
+    "vis-timeline": "^7.4.4"
   },
   "devDependencies": {
     "@types/react": "^16.9.14",
